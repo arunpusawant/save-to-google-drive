@@ -12,6 +12,9 @@ block content
 				li.list-group-item.active
 					span.glyphicon.glyphicon-asterisk
 					span 	FILE WILL BE UPLOADED TO GOOGLE DRIVE AT HIGH SPEEDS(1Gbps)!
+					span    YOU CAN UPLOAD MULTIPLE FILES!
+					span    JUST KEEP ON ADDING URLs AND PRESS UPLOAD BUTTON
+					span    PREVIOUS FILES WILL CONTINUE BEING UPLOADED, EVEN IF YOU CLOSE THE PAGE!
 				li.list-group-item(v-if="!loading && fileDetails.length")
 						div(v-for="file in fileDetails" )
 							.row
